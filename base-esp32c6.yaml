@@ -1,11 +1,6 @@
 substitutions:
   loglevel: INFO
 
-# Required to fix ADC on ESP32-C6 with current ESP-IDF v5.3.1
-external_components:
-  - source: github://pr#7942
-    components: [ "adc" ]
-
 esphome:
   name: $deviceId
   friendly_name: $deviceName
