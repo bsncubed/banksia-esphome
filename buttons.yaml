@@ -21,7 +21,7 @@ packages:
     vars: 
       n: 4
       adc_v: 1.40
-  button9: !include
+  button5: !include
     file: button-template.yaml
     vars: 
       n: 5
